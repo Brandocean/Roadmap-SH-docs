@@ -3,16 +3,18 @@
 
 ## Navigation basics
 
-<details>
-<Summary>**What is the command to change directories?**</Summary>
-```console
-cd /path/to/directory
-```
+1. <details>
+    <Summary><strong>What command do we use to change directories?</strong></Summary>
+
+    ```
+    cd /path/to/directory
+    ```
 </details>
 
-<details>
-<Summary>**What command do we use to list the contents of a directory?**</Summary>
-```console
-ls
-```
+2. <details>
+    <Summary><strong>What command do we use to list the contents of a directory?</strong></Summary>
+
+    ```console 
+    ls
+    ```
 </details>
