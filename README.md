@@ -6,5 +6,15 @@ This is a collection of notes made in [Roadmap.sh](https://roadmap.sh/) and is p
 - Learning the basics of job skills.
 - A place to demonstrate our knowledge.
 
+> [!NOTE]
+> Notes are writing as questions to facilitate the answers for interviews or teaching purposes.
+
 ## Sections
 - [Linux](./Linux/Notes.md)
+
+---
+
+<details>
+<Summary>Toggle template (ignore this)</Summary>
+
+</details>
