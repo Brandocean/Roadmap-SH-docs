@@ -6,7 +6,7 @@
 1. <details>
     <Summary><strong>What command do we use to change directories?</strong></Summary>
 
-    ```
+    ```console
     cd /path/to/directory
     ```
 </details>
