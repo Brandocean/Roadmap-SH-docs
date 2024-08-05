@@ -18,3 +18,19 @@
     ls
     ```
 </details>
+
+3. <details>
+    <Summary><strong>What command do we use to view current working directory?</strong></Summary>
+
+    ```console 
+    pwd
+    ```
+</details>
+
+4. <details>
+    <Summary><strong>What command do we use to display the mannual page for a command?</strong></Summary>
+
+    ```console 
+    man ls
+    ```
+</details>
