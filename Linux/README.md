@@ -1,6 +1,13 @@
 # Linux Roadmap
 > Link to [Linux roadmap.sh](https://roadmap.sh/linux)
 
+<details>
+<Summary><strong>Articles / Files</strong></Summary>
+
+###
+- [Linux Journey](https://linuxjourney.com/)
+</details>
+
 ## Navigation basics
 
 1. <details>
