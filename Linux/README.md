@@ -200,27 +200,71 @@
 </details>
 
 17. <details>
-    <Summary><strong>X</strong></Summary>
+    <Summary><strong>How does we find files in our Linux system?</strong></Summary>
 
     ###
-    - It was developed by Linus Torvalds in 1991.
+    ```
+    # To find a directory and everything inside 
+    find DIRECTORY_NAME
+
+    # To find a specific file
+    find -name FILE_NAME
+
+    # To find files with a specific extension
+    # Here we use a wildcard *
+    find -name *.txt
+    ```
 </details>
 
 18. <details>
-    <Summary><strong>Who created Linux?</strong></Summary>
+    <Summary><strong>Explain the operator (&) and (&&)</strong></Summary>
 
     ###
-    - It was developed by Linus Torvalds in 1991.
+    - `&`: Is used to run a command in the background, allowing you to continue using the terminal while the command is still executing. 
+        - Example `sleep 10 &`
+    - `&&`: we use it to run many commands at the same time but the command2 only gonna run if command 1 is successful. 
+        - Example: `sudo apt update && sudo apt upgrade`
 </details>
 
 19. <details>
+    <Summary><strong>Explain the operator (>) and (>>)</strong></Summary>
+
+    ###
+    - `>`: This operator allow us to take the output from a command we run and send that output to somewhere else.
+        - Like the `echo` command that we use to create a file
+    - `>>`: Is the same as `>` but with this command we redirect our output at the end of the file
+        - If we use only `>` it will overwrite our file   
+</details>
+
+20. <details>
     <Summary><strong>Who created Linux?</strong></Summary>
 
     ###
     - It was developed by Linus Torvalds in 1991.
 </details>
 
-20. <details>
+21. <details>
+    <Summary><strong>Who created Linux?</strong></Summary>
+
+    ###
+    - It was developed by Linus Torvalds in 1991.
+</details>
+
+22. <details>
+    <Summary><strong>Who created Linux?</strong></Summary>
+
+    ###
+    - It was developed by Linus Torvalds in 1991.
+</details>
+
+23. <details>
+    <Summary><strong>Who created Linux?</strong></Summary>
+
+    ###
+    - It was developed by Linus Torvalds in 1991.
+</details>
+
+24. <details>
     <Summary><strong>Who created Linux?</strong></Summary>
 
     ###
