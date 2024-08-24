@@ -7,6 +7,8 @@
 ###
 - [Linux Journey](https://linuxjourney.com/)
 - [Vim-repository](https://github.com/iggredible/Learn-Vim?tab=readme-ov-file)
+- [Vim-game](https://vim-adventures.com/)
+
 </details>
 
 <details>
@@ -401,15 +403,20 @@
 </details>
 
 35. <details>
-    <Summary><strong>Who created Linux?</strong></Summary>
+    <Summary><strong>How do you can see your distribution in Linux?</strong></Summary>
 
     ###
-    - It was developed by Linus Torvalds in 1991.
+    ```
+    /etc/os-release
+    ```
 </details>
 
 36. <details>
-    <Summary><strong>Who created Linux?</strong></Summary>
+    <Summary><strong>How do you move with vim?</strong></Summary>
 
     ###
-    - It was developed by Linus Torvalds in 1991.
+    - `h`: left
+    - `j`: down (it seems like a ⬇)
+    - `k`: up
+    - `l`: right
 </details>
