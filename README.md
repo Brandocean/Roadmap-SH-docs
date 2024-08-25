@@ -10,7 +10,7 @@ This is a collection of notes made in [Roadmap.sh](https://roadmap.sh/) and is p
 > Notes are writing as questions to facilitate the answers for interviews or teaching purposes.
 
 ## Sections
-- [Linux](./Linux/Notes.md)
+- [Linux](./Linux/README.md)
 
 ---
 
