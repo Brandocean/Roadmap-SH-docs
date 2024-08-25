@@ -365,6 +365,7 @@
     ###
     - `:wq` where `:w` is for save and `:q` is for quit.
     - Also you can use `ZZ`.
+    - `:w FILE_NAME` if you want to create a new file with the actual information.
 </details>
 
 32. <details>
@@ -412,7 +413,7 @@
 </details>
 
 36. <details>
-    <Summary><strong>How do you move with vim?</strong></Summary>
+    <Summary><strong>How do you move with Vim?</strong></Summary>
 
     ###
     - `h`: left
@@ -422,14 +423,14 @@
 </details>
 
 37. <details>
-    <Summary><strong>How do we add content that is in another file with vim?</strong></Summary>
+    <Summary><strong>How do we add content that is in another file with Vim?</strong></Summary>
 
     ###
     - In the Normal mode type: `r FILE_NAME`
 </details>
 
 38. <details>
-    <Summary><strong>How can we run linux command with vim?</strong></Summary>
+    <Summary><strong>How can we run linux command with Vim?</strong></Summary>
 
     ###
     - In command mode type: `! LINUX_COMMAND`
@@ -437,28 +438,87 @@
 </details>
 
 39. <details>
-    <Summary><strong>How do you move with vim?</strong></Summary>
+    <Summary><strong>What is a buffer?</strong></Summary>
 
     ###
-    - `h`: left
+    - A buffer is a chunk of memory that holds the text of a file that you're currently editing.
+    - Example: When you open a new vim file you are in a new buffer.
 </details>
 
 40. <details>
-    <Summary><strong>How do you move with vim?</strong></Summary>
+    <Summary><strong>How move between buffers?</strong></Summary>
 
     ###
-    - `h`: left
+    - `bp`: to move to the previous buffer (buffer previous)
+    - `bn`: to move to the next buffer (buffer next)
 </details>
 
 41. <details>
-    <Summary><strong>How do you move with vim?</strong></Summary>
+    <Summary><strong>How do you we create a new buffer with Vim?</strong></Summary>
+
+    ###
+    - `:enew`: to create an empty buffer
+</details>
+
+42. <details>
+    <Summary><strong>How do we find and replace with Vim?</strong></Summary>
+
+    ###
+    - `%s/OLD_WORD/NEW_WORD/g`:
+    - If you only want to find type until OLD_WORD 
+</details>
+
+43. <details>
+    <Summary><strong>How do you move with Vim?</strong></Summary>
 
     ###
     - `h`: left
 </details>
 
-42. <details>
-    <Summary><strong>How do you move with vim?</strong></Summary>
+44. <details>
+    <Summary><strong>How do you move with Vim?</strong></Summary>
+
+    ###
+    - `h`: left
+</details>
+
+45. <details>
+    <Summary><strong>How do you move with Vim?</strong></Summary>
+
+    ###
+    - `h`: left
+</details>
+
+46. <details>
+    <Summary><strong>How do you move with Vim?</strong></Summary>
+
+    ###
+    - `h`: left
+</details>
+
+47. <details>
+    <Summary><strong>How do you move with Vim?</strong></Summary>
+
+    ###
+    - `h`: left
+</details>
+
+48. <details>
+    <Summary><strong>How do you move with Vim?</strong></Summary>
+
+    ###
+    - `h`: left
+</details>
+
+49. <details>
+    <Summary><strong>How do you move with Vim?</strong></Summary>
+
+    ###
+    - `h`: left
+</details>
+
+50. <details>
+    <Summary><strong>How do you move with Vim?</strong></Summary>
 
     ###
     - `h`: left
