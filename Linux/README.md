@@ -451,6 +451,7 @@
     - `bp`: to move to the previous buffer (buffer previous)
     - `bn`: to move to the next buffer (buffer next)
     - `bd`: if you want to delete the actual buffer
+    - `badd`: if you want to add a buffer without switch (remains in the actual buffer).
 </details>
 
 41. <details>
@@ -473,27 +474,31 @@
 
     ###
     - `:split FILE_NAME` or `:sp FILE_NAME`: for horizontal split (or open two files in the same terminal window).
+        - `vim -o FILE1 FILE2`: to open the files with this config.
     - `:vsplit FILE_NAME` or `:vsp FILE_NAME`: for vertical split (recommended).
+        - `vim -O FILE1 FILE2`: to open the files with this config.
     - `Ctrl + ww`: to move between files.
     - `:q` to exit one buffer.
 </details>
 
 44. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>How do we active line numbers in Vim?</strong></Summary>
 
     ###
-    - `h`: left
+    `:set number`: to active line numbers
+    `:set nonumber`: to deactivate line numbers
 </details>
 
 45. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>How do we configure Vim?</strong></Summary>
 
     ###
-    - `h`: left
+    - Open the file .vimrc and write the configuration that you want
+    - Example: `set number` to have the line numbers each time we open a vim file
 </details>
 
 46. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>How do  Vim?</strong></Summary>
 
     ###
     - `h`: left
