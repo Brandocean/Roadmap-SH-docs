@@ -188,7 +188,6 @@
     - **Memory management:** it allocates and deallocates memory space for processes as well as implementing virtual memory.
     - Facilitates communication between hardware components and the OS.
     - Manages file permission and access control.
-
 </details>
 
 14. <details>
@@ -451,6 +450,7 @@
     ###
     - `bp`: to move to the previous buffer (buffer previous)
     - `bn`: to move to the next buffer (buffer next)
+    - `bd`: if you want to delete the actual buffer
 </details>
 
 41. <details>
@@ -469,10 +469,13 @@
 </details>
 
 43. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>How do we split with Vim?</strong></Summary>
 
     ###
-    - `h`: left
+    - `:split FILE_NAME` or `:sp FILE_NAME`: for horizontal split (or open two files in the same terminal window).
+    - `:vsplit FILE_NAME` or `:vsp FILE_NAME`: for vertical split (recommended).
+    - `Ctrl + ww`: to move between files.
+    - `:q` to exit one buffer.
 </details>
 
 44. <details>
