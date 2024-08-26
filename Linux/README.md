@@ -493,8 +493,9 @@
     <Summary><strong>How do we configure Vim?</strong></Summary>
 
     ###
-    - Open the file .vimrc and write the configuration that you want
-    - Example: `set number` to have the line numbers each time we open a vim file
+    - Open the file `.vimrc` in your home directory (/home/brandocean for example) and write the configuration that you want.
+        - If you don't open the file in your home directory, changes would not be made.
+    - Example: `set number` to have the line numbers each time we open a vim file.
 </details>
 
 46. <details>
