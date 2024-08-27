@@ -20,10 +20,12 @@
 </details>
 
 3. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>What is the command path?</strong></Summary>
 
     ###
-    - `h`: left
+    - The PATH is an environment variable in Linux that contains a list of directories.
+    - Each directory in this list is separated by a colon (:).
+    - Without a proper PATH, you'd need to type the full path to executables every time you want to run a command (e.g., /usr/bin/ls instead of just ls).
 </details>
 
 4. <details>
