@@ -29,10 +29,21 @@
 </details>
 
 4. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>How do we add new directories to the PATH variable?</strong></Summary>
 
     ###
-    - `h`: left
+    - Type in the terminal `PATH=$PATH:NEW_DIRECTORY`. This copy all the PATH and add the new directory
+    - Example: `PATH=$PATH:~/bin`. This add a directory `bin` that is in the home directory.
+    - You can add more directories if needed using the `:` to separate each one.
+    ###
+    > If you want a permanent change of the PATH variable you need to edit the .bashrc at the end with the following (this is an example with the ~/bin directory): 
+    ```
+    if [ -d ~/bin ]
+    then
+        PATH=$PATH:~/bin
+    fi
+    ```
+    - This code checks if the directory exist add it to the PATH variable, else do nothing.
 </details>
 
 5. <details>
