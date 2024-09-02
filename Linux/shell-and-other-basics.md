@@ -47,99 +47,98 @@
 </details>
 
 5. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>What are the environment variables?</strong></Summary>
 
     ###
-    - `h`: left
+    - Environment variables are dynamic named values that can affect the behavior of running processes in a shell. 
+    - They exist in every shell session.
+    ### 
+    ```
+    # List all environment variables
+    $ env
+
+    # Print a particular variable like PATH
+    $ echo $PATH
+    ```
 </details>
 
 6. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>How to Set Environment Variables in Linux?</strong></Summary>
 
     ###
-    - `h`: left
+    - `export VARIABLE_NAME=value`
+    - Example: `export JAVA_HOME=/usr/bin/java`
 </details>
 
 7. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>How to Make Environment Variables Persistent in Linux?</strong></Summary>
 
     ###
-    - `h`: left
+    - Edit the file `.bashrc` that is located in the user's home directory.
+    - Add the definition of the environment variable at the end of the .bashrc file.
+    ![Example-of-bashrc-variable](https://www.freecodecamp.org/news/content/images/2022/10/image-194.png)
+    - For the changes to take effect, update the .bashrc file using `source .bashrc`
 </details>
 
 8. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>What are the main commands for help?</strong></Summary>
 
     ###
-    - `h`: left
+    - To view the manual entry for any command, use: `man [command]`
+        - It has an extensive documentation.
+    - For built-in shell functions, use: `help [command]`
+        - It has a brief documentation.
 </details>
 
 9. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>How many streams opened has each process in Linux?</strong></Summary>
 
     ###
-    - `h`: left
+    - Every process typically has 3 streams opened.
 </details>
 
 10. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>Which are the the 3 streams that are open in a process?</strong></Summary>
 
     ###
-    - `h`: left
+    - Standard Input (stdin): This is where the process reads its input from. 
+        - The default is the keyboard.
+    - Standard Output (stdout): The process writes its output to stdout. 
+        - By default, this means the terminal.
+    - Standard Error (stderr) - The process writes error messages to stderr. 
+        - This also goes to the terminal by default.
 </details>
 
 11. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>What are Redirects In Shell?</strong></Summary>
 
     ###
-    - `h`: left
+    - Redirection is a feature in Linux such that when executing a command, you can change the standard input/output devices.
 </details>
 
 12. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>What are the most common Redirections?</strong></Summary>
 
     ###
-    - `h`: left
+    - `>`: Redirects standard output to a file but it overwrites.
+        - Example: `ls -al > file_list.txt`.
+    - `>>`: Redirects standard output to a file and appends to any existing content.
+        - Example: `ls >> file_list.txt` here is not overwriting.
+    - `<`: Redirects input from a file to a command.
+        - Example: `tr 'o' 'b' file`, the file has `foo` inside so here the display will be `fbb` instead of foo because we use file as an input.
 </details>
 
 13. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>What is the super user in Linux?</strong></Summary>
 
     ###
-    - `h`: left
+    - The Super User, also known as “root user”, represents a user account in Linux with extensive powers, privileges, and capabilities.
 </details>
 
 14. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
+    <Summary><strong>How do we use the super user in Linux?</strong></Summary>
 
     ###
-    - `h`: left
-</details>
-
-15. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
-
-    ###
-    - `h`: left
-</details>
-
-16. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
-
-    ###
-    - `h`: left
-</details>
-
-17. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
-
-    ###
-    - `h`: left
-</details>
-
-18. <details>
-    <Summary><strong>How do you move with Vim?</strong></Summary>
-
-    ###
-    - `h`: left
+    - `su -` or `sudo su -`: Switches the current user to the root (In some cases you have the password or not depending on the distribution).
+    - `sudo <command>`: To perform a command as superuser (if allowed in sudoers list)
 </details>
