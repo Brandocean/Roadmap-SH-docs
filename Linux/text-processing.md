@@ -3,7 +3,7 @@
 ## Text Processing
 
 1. <details>
-    <Summary><strong>Question?</strong></Summary>
+    <Summary><strong>What is awk?</strong></Summary>
 
     ###
     - Answer
@@ -13,14 +13,17 @@
     <Summary><strong>Question?</strong></Summary>
 
     ###
-    - Answer
+    - `awk` is a powerful text-processing language.
+    - Named after its three original developers - Alfred Aho, Peter Weinberger, and Brian Kernighan.
+    - awk is adept at performing operations upon text files, such as sorting, filtering, and report generation.
 </details>
 
 3. <details>
-    <Summary><strong>Question?</strong></Summary>
+    <Summary><strong>How do we print the first column of the <code>ps</code> using awk?</strong></Summary>
 
     ###
-    - Answer
+    - `ps | awk '{print $1}'`: To print the first command.
+    - `ps | awk '{print $0}'` or `awk '{print}'` will print everything like normal ps or cat with files
 </details>
 
 4. <details>
