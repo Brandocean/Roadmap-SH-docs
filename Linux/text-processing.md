@@ -6,6 +6,7 @@
 - [awk documentation](https://www.gnu.org/software/gawk/manual/html_node/index.html#SEC_Contents)
 - [Practice awk](https://linuxhandbook.com/awk-command-tutorial/#9-a-simple-example-of-awk-array)
 - [Ripgrep github](https://github.com/BurntSushi/ripgrep)
+- [Advanced grep topics](https://caspar.bgsu.edu/~courses/Stats/Labs/Handouts/grepadvanced.htm)
 </details>
 
 ## Text Processing
@@ -215,6 +216,7 @@
 
     ###
     - GREP (Global Regular Expression Print) it is a powerful utility that searches and filters text matching a given pattern.
+    - `grep "pattern" FILE_NAME`
 </details>
 
 22. <details>
@@ -226,10 +228,12 @@
 </details>
 
 23. <details>
-    <Summary><strong>Question?</strong></Summary>
+    <Summary><strong>What is uniq?</strong></Summary>
 
     ###
-    - Answer
+    - The `uniq` command allows you to find and filter out duplicate lines, or even provide a count of each unique line in a file.
+    - It’s important to remember that `uniq` only removes duplicates that are next to each other, so we sort the data using the `sort` command first.
+        - For example: `sort names.txt | uniq`
 </details>
 
 24. <details>
