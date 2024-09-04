@@ -5,6 +5,7 @@
 
 - [awk documentation](https://www.gnu.org/software/gawk/manual/html_node/index.html#SEC_Contents)
 - [Practice awk](https://linuxhandbook.com/awk-command-tutorial/#9-a-simple-example-of-awk-array)
+- [Ripgrep github](https://github.com/BurntSushi/ripgrep)
 </details>
 
 ## Text Processing
@@ -210,17 +211,18 @@
 </details>
 
 21. <details>
-    <Summary><strong>Question?</strong></Summary>
+    <Summary><strong>What is grep?</strong></Summary>
 
     ###
-    - Answer
+    - GREP (Global Regular Expression Print) it is a powerful utility that searches and filters text matching a given pattern.
 </details>
 
 22. <details>
-    <Summary><strong>Question?</strong></Summary>
+    <Summary><strong>What is ripgrep?</strong></Summary>
 
     ###
-    - Answer
+    - `ripgrep` is an extremely fast text processor that supports all the features of grep and extends it.
+    - Also is a line-oriented search tool that recursively searches the current directory for a regex pattern.
 </details>
 
 23. <details>
