@@ -237,17 +237,21 @@
 </details>
 
 24. <details>
-    <Summary><strong>Question?</strong></Summary>
+    <Summary><strong>Explain the expand and unexpand command</strong></Summary>
 
     ###
-    - Answer
+    - `expand FILE_NAME`: Is a command that converts tabs into spaces.
+    - `unexpand FILE_NAME`: Is a command that converts spaces into tabs.
+    - We can verify by creating a new file for example `expand file1 > file2` and use `cat -A file2` where if we see `^I` are tabs and if we don't see nothing, there are spaces.
 </details>
 
 25. <details>
-    <Summary><strong>Question?</strong></Summary>
+    <Summary><strong>What is the default value of tabs with expand?</strong></Summary>
 
     ###
-    - Answer
+    - The `expand` command by default converts tabs into 8 spaces.
+    - To specify the number of spaces for each tab, the `-t` option can be used as follows: `expand -t 4 FILE_NAME`
+    - It also works with the unexpand `unexpand -t 4 FILE_NAME` to change 4 spaces into a tab.
 </details>
 
 26. <details>
