@@ -255,24 +255,29 @@
 </details>
 
 26. <details>
-    <Summary><strong>Question?</strong></Summary>
+    <Summary><strong>Explain the wc command</strong></Summary>
 
     ###
-    - Answer
+    - The `wc` command allows users to count the number of bytes, characters, words, and lines in a file or in data piped from standard input.
+    - The name wc stands for ‘word count’ but it can do much more.
+    - The basic usage is `wc FILE_NAME`
 </details>
 
 27. <details>
-    <Summary><strong>Question?</strong></Summary>
+    <Summary><strong>Explain the output of the wc command</strong></Summary>
 
     ###
-    - Answer
+    - This command would output the number of lines, words, and characters in test.txt. 
+    - For example: ` 1  5 28 test.txt`
 </details>
 
 28. <details>
-    <Summary><strong>Question?</strong></Summary>
+    <Summary><strong>Explain the nl command</strong></Summary>
 
     ###
-    - Answer
+    - `nl` command is a utility for numbering lines in a text file. Also known as ‘number lines’ (Is like a cat but with number lines).
+    - Basic sintax: `nl [options] FILE_NAME`
+    - If no file is specified, nl will wait for input from user’s terminal (stdin), you can check multiple files with this method because it's like a while true waiting for more inputs of file names.
 </details>
 
 29. <details>
